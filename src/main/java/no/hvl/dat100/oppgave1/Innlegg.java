@@ -70,14 +70,12 @@ public abstract class Innlegg {
 		likes = likes + 1;
 	}
 
+	// Klarer ikke å finne ut hva jeg skal sammenligne mot innlegg når Innlegg ikke funker
+	// Dette går igjen i senere oppgaver
+	// Må spør på datalab
+
 	public boolean erLik(Innlegg innlegg) {
-		if (Innlegg == innlegg)  {
-			return true;
-
-		} else {
-			return false;
-		}
-
+		return Innlegg == innlegg;
 	}
 
 	@Override
